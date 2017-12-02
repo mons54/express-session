@@ -1,0 +1,12 @@
+{
+  "name": "graphql-session",
+  "version": "0.0.1",
+  "description": "GraphQL Session",
+  "repository": "mons54/graphql-session",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.11",
+    "express-session": "^1.15.6",
+    "graphql": "^0.11.7"
+  }
+}
