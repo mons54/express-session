@@ -26,6 +26,8 @@ app.use(function (request, response, next) {
     }
 
     console.log(request.session.views);
+
+    next();
 });
 
 app.use('/graphql', graphqlHTTP({
