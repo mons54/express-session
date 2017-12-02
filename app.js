@@ -21,12 +21,11 @@ app.use(function (request, response, next) {
 
     if (request.session.views) {
        request.session.views++;
-       console.log(request.session.views);
     } else {
         request.session.views = 1;
     }
 
-    next();
+    console.log(request.session.views);
 });
 
 app.use('/graphql', graphqlHTTP({
